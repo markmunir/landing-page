@@ -87,6 +87,23 @@ figure {
     align-items: flex-start;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 100px;
+}
+.quote-text {
+    font-style: italic;
+    font-weight: 200;
+
+}
+.quote-atr {
+    display: flex;
+    justify-content: flex-end;
+    color: #1f2937;
+    font-weight: 900;
+}
 .action-box {
     display: flex;
     background-color: #3882F6;
