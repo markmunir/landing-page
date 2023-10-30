@@ -51,6 +51,22 @@ button {
     margin: 20px;
 }
 
+figure {
+    display: flex;
+    flex-flow: column;
+}
+
+.card {
+    align-self: flex-start;
+    color: darkgray;
+}
+
+.container {
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .box {
     background-color: white;
     width: 50px;
