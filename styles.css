@@ -9,11 +9,21 @@ body {
 .header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: flex-start;
     color: #E5E7EB;
     font-size: 18px;
     padding: 100px;
     flex-shrink: 0;
+    font-weight: 700;
+}
+
+
+.link {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .main {
